@@ -208,6 +208,7 @@ ggplot(my_data, aes(x = Group, y = Length)) +
   geom_boxplot(fill = "white", colour = "black") + 
   scale_x_discrete() + xlab("Group") + ylab("Length")
 ```
+![image](https://user-images.githubusercontent.com/73664125/170880511-03ef214b-bd8a-415d-b34f-c037a5206bad.png)
 
 5. Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk
 mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca
